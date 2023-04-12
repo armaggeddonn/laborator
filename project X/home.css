@@ -1,0 +1,103 @@
+body{
+    background-color: #000;
+    margin: 0px;
+    font-family: inherit;
+    font-size: 13px;
+    height: 100%;
+    min-height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.left{
+    top: 0;
+    left: 0;
+    padding: 24px 25px;
+    position: fixed;
+    text-decoration: none;
+    color:rgb(93, 251, 32) ;
+    text-decoration: none;
+    letter-spacing: 0.17em;
+    transition: 0.3s;
+}
+.left:hover{
+    opacity: 0.8;
+}
+.middle{
+    text-align: center;
+    padding: 24px;
+    top: 0;
+    right: 47%;
+    position: fixed;
+    text-decoration: none;
+    color:rgb(93, 251, 32) ;
+    text-decoration: none;
+    letter-spacing: 0.17em;
+    transition: 0.3s;
+}
+.middle:hover{
+    opacity: 0.8;
+}
+.right{
+    top: 0;
+    right: 0%;
+    padding: 24px 25px;
+    position: fixed;
+    text-decoration: none;
+    color:rgb(93, 251, 32) ;
+    text-decoration: none;
+    letter-spacing: 0.17em;
+    transition: 0.3s;
+}
+.right:hover{
+    opacity: 0.8;
+}
+.bleft{
+    bottom: 0;
+    left: 0;
+    padding: 24px 25px;
+    position: fixed;
+    text-decoration: none;
+    color:rgb(93, 251, 32) ;
+    text-decoration: none;
+    letter-spacing: 0.17em;
+    transition: 0.3s;
+}
+.bleft:hover{
+    opacity: 0.8;
+}
+.bmiddle{
+    bottom: 0;
+    right: 47%;
+    padding: 24px;
+    text-align: center;
+    position: fixed;
+    text-decoration: none;
+    color:rgb(93, 251, 32) ;
+    text-decoration: none;
+    letter-spacing: 0.17em;
+    transition: 0.3s;
+}
+.bmiddle:hover{
+    opacity: 0.8;
+}
+.bright{
+    bottom: 0;
+    right: 0;
+    padding: 24px 25px;
+    position: fixed;
+    text-decoration: none;
+    color:rgb(93, 251, 32) ;
+    text-decoration: none;
+    letter-spacing: 0.17em;
+    transition: 0.3s;
+}
+.bright:hover{
+    opacity: 0.8;
+}
+.index-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
