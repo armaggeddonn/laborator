@@ -93,3 +93,43 @@ body{
 .bright:hover{
     opacity: 0.8;
 }
+.Content{
+    height: 100%;
+    width: 100%;
+    display: table;
+    line-height: 1.25;
+    text-align: center;
+    background: #000;
+}
+.C__inner{
+    display: table-cell;
+    min-height: 700px;
+    vertical-align: middle;
+}
+.C__album{
+    width: 100%;
+    min-height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    display: table;
+}
+.C__album_inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.C__cover_wrap{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 40px 20px;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.C__cover_wrap a{
+    padding: 10px;
+}
